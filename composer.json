@@ -1,5 +1,5 @@
 {
-  "name": "jhow/flunt-php",
+  "name": "cotacoesecompras/flunt-php",
   "description": "Validation engine",
   "keywords": [
     "flunt",
@@ -15,7 +15,7 @@
       "email": "jhonattasantoss@hotmail.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {},
   "require-dev": {
     "phpunit/phpunit": "^7"
