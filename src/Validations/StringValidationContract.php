@@ -11,4 +11,13 @@ trait StringValidationContract
         }
         return $this;
     }
+
+    public function isNullOrEmpty($val, $property, $message)
+    {
+        if(!empty($val)){
+            $this->addNotification($property, $message);
+        }
+
+        return $this;
+    }
 }

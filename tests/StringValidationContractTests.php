@@ -20,4 +20,14 @@ class StringValidationContractTests extends TestCase
                     ->isNotNullOrEmpty("Some valid string", "string", "String is Null");
          $this->assertTrue($right->valid());
     }
+
+    public function testIsNullOrEmpty()
+    {
+        $wrong = (new Contract())
+                    ->requires()
+                    ->isNullOrEmpty(null, "string", "String is Null")
+                    ->isNullOrEmpty("", "string", "String is Empty");
+        //$this->assertTrue($wrong->valid());
+        $this->assertEquals(0, count($wrong->notifications()));
+    }
 }
