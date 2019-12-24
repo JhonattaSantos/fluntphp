@@ -1,5 +1,21 @@
 {
   "name": "jhow/flunt-php",
+  "description": "Validation engine",
+  "keywords": [
+    "flunt",
+    "fluntphp",
+    "validation",
+    "validator"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jhonatta Santos",
+      "email": "jhonattasantoss@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
   "require": {},
   "require-dev": {
     "phpunit/phpunit": "^7"
