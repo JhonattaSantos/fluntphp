@@ -7,6 +7,7 @@ class Contract extends Notifiable
 {
     use StringValidationContract;
     use BoolValidationContract;
+    use ArrayValidationContract;
 
     public function requires()
     {
