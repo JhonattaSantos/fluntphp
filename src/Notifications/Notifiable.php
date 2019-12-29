@@ -13,7 +13,7 @@ abstract class Notifiable
 
     public function addNotification($property, $message)
     {
-        $this->notificationsList[] = new Notification($property, $message);
+        $this->notificationsList[] = (new Notification($property, $message))->toArray();
     }
 
     public function addNotifications($notifications)
